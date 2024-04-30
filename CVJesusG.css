@@ -1,0 +1,336 @@
+/*BACKGROUND IMAGE*/
+html {
+    border-image: none;
+    background-image: url(https://t4.ftcdn.net/jpg/04/35/70/21/360_F_435702190_KcmVINgkTOZkrZxjeF0ZLaNJxfy6Bz9L.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+/*MI NOMBRE EN GRANDE*/
+.main-heading {
+    font-family: kanit;
+    font-weight: 2000;
+    color: white;
+    line-height: 0.1;
+    font-size: 5em;
+    margin-left: 50px;
+}
+
+/*APELLIDO EN GRANDE*/
+.sub-heading {
+    font-family: kanit;
+    font-weight: 2000;
+    font-size: 4em;
+    margin-left: 50px;
+    line-height: 0.1;
+    color: white;
+}
+
+/*SOFTWARE ENGINEER*/
+nav {
+    font-family: kanit;
+    font-size: 1.5em;
+    line-height: 0.1;
+    font-weight: 300;
+    margin-left: 60px;
+    color: white;
+}
+
+/*SQUARE IN MAIN */
+.square {
+    width: 1000px;
+    height: 640px;
+    background-color: white;
+    border-top-right-radius: 200px;
+    position: absolute;
+    left: 0;
+    margin-top: 1%;
+    z-index: 1;
+}
+
+/*WORK EXPERIENCE*/
+h3 {
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 4000;
+    font-size: 1.5em;
+    line-height: 0.1;
+    margin-left: 40px;
+    margin-top: 4%;
+    text-transform: uppercase;
+    color: #87c4f1;
+}
+
+/*LOGISTICS & TRANSPORTATION MANAGER H4 */
+h4 {
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 4000;
+    font-size: 1em;
+    line-height: 0.1;
+    margin-left: 50px;
+    margin-top: 5%;
+    color: black;
+}
+
+/*COMPANY*/
+h5 {
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 0.1;
+    margin-left: 60px;
+    margin-top: 1%;
+    color: black;
+}
+
+/*DESCRIPTION*/
+article li p {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1px 0 5px 0;
+}
+
+.text-wrapper {
+    width: 200px;
+    color: black;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-wrap: break-word;
+}
+
+/*DISPATCHER & CUSTOMER SERVICE*/
+.job {
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 4000;
+    font-size: 1em;
+    line-height: 0.1;
+    margin-left: 545px;
+    margin-top: -445px;
+    color: black;
+}
+
+/*LINEAGE LOGISTICS*/
+.company-2 {
+    margin-left: 555px;
+}
+
+/*CONTENIDO*/
+.text-wrapper-2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1;
+    margin-left: 8px;
+    margin-right: 40px;
+    color: black;
+    width: 200px;
+    margin-top: 20px;
+}
+.text-wrapper-3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1;
+    margin-left: 8px;
+    margin-right: 40px;
+    color: black;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.first-point {
+    margin-left: 495px;
+}
+
+.second-point {
+    margin-left: 495px;
+}
+.text-wrapper-4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1;
+    margin-left: 8px;
+    margin-right: 40px;
+    color: black;
+    width: 200px;
+    margin-top: 5px;
+}
+.third-point{
+    margin-left: 495px;
+}
+.text-wrapper-5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1;
+    margin-left: 8px;
+    margin-right: 40px;
+    color: black;
+    width: 200px;
+    margin-top: 5px;
+}
+.forth-point{
+    margin-left: 495px;
+}
+/*SKILLS SECTION*/
+.SKILLS-SECTION{
+    font-family: kanit;
+    font-weight: 2000;
+    color: white;
+    line-height: 0.1;
+    font-size: 4em;
+    margin-left: 1050px;
+}
+.fa-brands-fa-html5{
+    margin-left: 1050px;
+}
+.fa-brands-fa-css3{
+    margin-left: 1100;
+}
+.fa-brands-fa-js{
+    margin-left: 1200;
+}
+.a-brands-fa-python{
+    margin-left: 1250;
+}
+.EDUCATION{
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 4000;
+    font-size: 2em;
+    line-height: 2;
+    margin-left: 1100px;
+    margin-top: -200px;
+    color: white;
+    text-transform: uppercase;
+}
+/*MIGUEL ANGEL*/
+.text-wrapper-6{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 0.5;
+    margin-left: 1057px;
+    margin-right: 40px;
+    color: white;
+    width: 200px;
+    margin-top: 15px;
+}
+/*HIGH SCHOOL DIPLOMA*/
+.High {
+    font-weight: 800;
+    font-size: 1em;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    margin-left: 8px;
+    margin-right: 40px;
+    color: white;
+    width: 200px;
+    margin-top: -30px;
+}
+
+.five-point{
+    margin-left: 1050px;
+    margin-top: 1px;
+    color: white;
+}
+.Software{
+    font-weight: 800;
+    font-size: 1em;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    margin-left: 1px;
+    margin-right: 40px;
+    color: white;
+    width: 200px;
+    margin-top: -25px;
+}
+.university{
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    margin-left: 1050px;
+    margin-right: 40px;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+}
+.six-point{
+    margin-left: 1050px;
+    margin-top: 50px;
+    color: white;
+}
+.Solar{
+    font-weight: 800;
+    font-size: 1em;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1;
+    margin-left: 1px;
+    margin-right: 40px;
+    color:white;
+    width: 200px;
+    margin-top: -25px;
+}
+.solar-university{
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    margin-left: 1050px;
+    margin-right: 40px;
+    color:white;
+    width: 200px;
+    margin-top: 10px;
+}
+.seven-point{
+    margin-left: 1050px;
+    margin-top: 50px;
+    color: white;
+}
+.footer{
+    margin-top: 407px;
+    background-color: #b8d3e9   
+}
+.Contact{
+    font-family: kanit;
+    line-height: 0.5;
+    margin-left: 700px;
+    margin-top: -30;
+    color: white;
+}
+.lenguages{
+    font-family: kanit;
+    font-size: 2em;
+    line-height: 0.5;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: white
+}
+.English{
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+}
+.Spanish{
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: white;
+}
+.Enter{
+    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    margin-left: 700px;
+    margin-top: -30;
+    color: white;
+}
+.Phone{
+    ont-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 0.5;
+    color: white;
+}
