@@ -5,7 +5,12 @@ html {
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-
+.presentation-box{
+    box-sizing: content-box;
+    margin: 30px;
+    width: 500px;
+    
+}
 /*MI NOMBRE EN GRANDE*/
 .main-heading {
     font-family: kanit;
@@ -39,7 +44,7 @@ nav {
 /*SQUARE IN MAIN */
 .square {
     width: 1000px;
-    height: 640px;
+    height: 610px;
     background-color: white;
     border-top-right-radius: 200px;
     position: absolute;
@@ -289,28 +294,30 @@ article li p {
 }
 .footer{
     margin-top: 407px;
-    background-color: #b8d3e9   
+    background-color: #b8d3e9;
 }
 .Contact{
     font-family: kanit;
     line-height: 0.5;
     margin-left: 700px;
-    margin-top: -30;
+    position: relative;
+    top: -70px;
     color: white;
 }
 .lenguages{
     font-family: kanit;
     font-size: 2em;
     line-height: 0.5;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    margin-left: 40px;
+    position: relative;
+    top: 50px;
     color: white
 }
 .English{
     font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
     font-size: 1.5em;
+    margin-left: 60px;
     text-transform: uppercase;
     color: white;
 }
@@ -319,18 +326,28 @@ article li p {
     line-height: 1.5;
     font-size: 1.5em;
     text-transform: uppercase;
+    margin-left: 60px;
     margin-top: 100px;
     color: white;
 }
 .Enter{
-    font-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 0.5;
+    position: relative;
+    top: -30px;
     margin-left: 700px;
     margin-top: -30;
     color: white;
 }
 .Phone{
-    ont-family: 'Roboto', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 0.5;
+    position: relative;
+    top:-30px;
     color: white;
+}
+input[type="submit"]{
+    position: relative;
+    top: -30px;
+    width: 60px;
 }
